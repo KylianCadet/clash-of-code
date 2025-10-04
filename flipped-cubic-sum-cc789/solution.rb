@@ -1,0 +1,1 @@
+p (gets.to_i..gets.to_i).sum{_1**3}.to_s(2).tr('01','10').to_i 2
