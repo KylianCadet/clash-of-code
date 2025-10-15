@@ -1,0 +1,1 @@
+puts gets.to_i.times.map{gets.split(';').map{_1.split(',').sum(&:to_i)/3}.join ';'}
