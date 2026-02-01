@@ -1,0 +1,1 @@
+p `sed 1d`.split.map(&:to_i).each_cons(3).count{|a,b,c|b>c&&b>a}
