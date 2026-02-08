@@ -1,0 +1,1 @@
+puts `sed 1d`.split.each_slice(2).sort_by{-_1[1].to_f}.map{_1[0]}.join' '
