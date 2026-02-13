@@ -1,0 +1,1 @@
+p eval(gets.chomp+gets.chomp.tr('+*/-','-/+*')+gets+'.0').to_i
