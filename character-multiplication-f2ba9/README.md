@@ -1,0 +1,38 @@
+## Mode
+Fastest mode
+
+## Goal
+Given a string consisting only of the characters A, T, G and C, do the following:
+- double the A-s
+- triple the T-s
+- remove the G-s
+- leave the C-s as is
+
+## Input
+A single line of characters [ATGC].
+
+## Output
+A single line of characters [ATGC].
+
+## Constraint
+The input string is at most 20 characters long.
+
+## Example
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Ouput</th>
+  </tr>
+  <tr>
+    <td>
+      <pre>
+ATGCAATTGGCC
+      </pre>
+    </td>
+    <td>
+     <pre>
+AATTTCAAAATTTTTTCC
+     </pre>
+    </td>
+  </tr>
+</table>
