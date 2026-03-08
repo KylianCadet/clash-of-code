@@ -1,0 +1,1 @@
+puts `dd`.split.map{_1.to_i.to_s(2).rjust(16,'0').tr('10','#.')}
