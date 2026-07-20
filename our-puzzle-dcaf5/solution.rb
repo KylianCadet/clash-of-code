@@ -1,0 +1,1 @@
+puts "Our #{gets.scan(/( |^)my (\w+)/i)[0][1]}."
