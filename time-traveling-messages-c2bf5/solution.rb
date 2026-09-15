@@ -1,0 +1,1 @@
+puts gets.to_i.times.map{gets.split}.sort_by{|t,m|t.to_i}.map{_2}.join' '
