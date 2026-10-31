@@ -1,0 +1,1 @@
+puts gets.chomp.reverse.tr('bp([{dq)]}','dq)]}bp([{')
