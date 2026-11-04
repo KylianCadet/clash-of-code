@@ -1,0 +1,1 @@
+p `sed 1d`.gsub("\n",'').chars.tally.select{_2==1}.sum{_1[0].to_i}
