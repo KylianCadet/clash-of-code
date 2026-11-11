@@ -1,0 +1,1 @@
+p (1..gets.to_i).inject(:*).to_s(gets.to_i).scan(/0*$/)[0].length
