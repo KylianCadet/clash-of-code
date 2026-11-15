@@ -1,0 +1,1 @@
+puts gets.gsub('\\\\','').scan(/\\([A-Za-z])/).join
